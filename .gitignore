@@ -1,0 +1,26 @@
+# Local Python environments
+.venv/
+venv/
+env/
+
+# Python runtime caches
+**/__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.coverage
+htmlcov/
+
+# Generated runtime outputs
+LogsFolder/
+Solutions_experimental/
+archive/
+*.log
+
+# Local tool/cache files
+.ipynb_checkpoints/
+.DS_Store
+.github
