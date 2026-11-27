@@ -1,0 +1,45 @@
+{
+  "Transmitters": {
+    "ns=0;s=PUBLIC.SYNTHETIC.READ_001": {
+      "Type": "Temperature",
+      "Measurement": "PUBLIC_SYNTHETIC",
+      "Class": "Transmitter",
+      "Tag": "SYNTHETIC_READ_001",
+      "Unit": "degC",
+      "Zone": "PUBLIC_ZONE_01",
+      "FieldName": "T"
+    }
+  },
+  "Generators": {
+    "ns=0;s=PUBLIC.SYNTHETIC.READ_003": {
+      "Type": "Power",
+      "Measurement": "PUBLIC_SYNTHETIC",
+      "Class": "Generator",
+      "Tag": "SYNTHETIC_READ_003",
+      "Zone": "PUBLIC_ZONE_01",
+      "FieldName": "P"
+    }
+  },
+  "Meter": {
+    "ns=0;s=PUBLIC.SYNTHETIC.READ_005": {
+      "Type": "Energy",
+      "Measurement": "PUBLIC_SYNTHETIC",
+      "Class": "Meter",
+      "Zone": "PUBLIC_ZONE_02",
+      "nomeFRER": "SYNTHETIC_READ_005",
+      "Tag": "SYNTHETIC_READ_005",
+      "Unit": "kWh",
+      "FieldName": "E"
+    }
+  },
+  "Valves": {
+    "ns=0;s=PUBLIC.SYNTHETIC.READ_006": {
+      "Type": "Control",
+      "Measurement": "PUBLIC_SYNTHETIC",
+      "Class": "Actuator",
+      "Zone": "PUBLIC_ZONE_02",
+      "Tag": "SYNTHETIC_READ_006",
+      "FieldName": "S"
+    }
+  }
+}
